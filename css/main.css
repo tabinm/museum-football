@@ -1,0 +1,126 @@
+header{
+  background-color: #000000;
+}
+li {
+  align-content: space-around;
+}
+a{
+  color: #FFFFFF;
+
+}
+a:hover {
+  color: #02AF3F;
+}
+h1{
+  color: #02AF3F;
+  font-style: bold;
+}
+h3 {
+  padding-bottom: 1rem;
+}
+button {
+  color: #02AF3F;
+}
+body{
+  padding: 1rem;
+  align-content: center;
+}
+img{
+  padding-left: 0rem;
+  padding-bottom: 0rem;
+
+}
+a {
+  padding-top: 3rem;
+}
+body section{
+  height: 100%;
+  align-content: center;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: none;
+}
+
+
+
+
+
+@media screen and (min-width:50em){
+  footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .card {
+    width: 25%;
+  }
+}
+
+/* for styling purposes */
+
+
+footer {
+  padding: .5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.2;
+  background-color: #000000;
+  color: #441e1b;
+  }
+table {
+  border-color: #000000;
+}
+
+th {
+  color: #02AF3F;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+ td {
+  color: #FFFFFF;
+  background-color: #000000;
+  border-color: #000000;
+ }
+
+.card {
+  padding: 1.5rem;
+  background-color: #000000;
+  margin-bottom: 1rem;
+  border-radius: .25rem;
+  border-color: #000000;
+}
+
+.card h2 {
+  margin-bottom: .5rem;
+  color: #02AF3F;
+}
+p{
+  color: #FFFFFF;
+}
+
+section {
+  background-color: #000000;
+  padding-bottom: 2 rem;
+}
+
+figcaption {
+  color: #02AF3F;
+}
+.parent {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .image1 {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .image2 {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+      }
+
